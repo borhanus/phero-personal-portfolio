@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+}
+
+/* header section */
+header{
+    height: 60px;
+}
+nav{
+    float: right;
+}
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    float: left;
+    padding-right: 20px;
+}
+li a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: bold;
+}
+
+/* intro section */
+section{
+    padding:3%;
+    height: 500px;
+}
+
+.main-section{
+    
+
+}
+.main-half-section{
+    float: left;
+    width: 40%;
+    margin-right: 100px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 64px;
+    color: #363958;
+    line-height: 75px;
+    margin: 20px 0px;
+    font-weight: normal;
+}
+.special-color{
+    color: #FF8367;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #3E3E3E;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+.link-anchor{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 40px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+img{
+    width: 100%;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color: #363958;
+    line-height: 48px;
+    font-weight: normal;
+}
+.about-section{
+    float: right;
+    margin: 0;
+}
+.latest-section{
+    background-color: #f8f9fc;
+    
+}
+.latest-section h2{
+    text-align: center;
+}
+.projects{
+
+}
+
+.projects ul li{
+    width: 30%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 1%;
+}
+.projects li p{
+    font-weight: normal;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
