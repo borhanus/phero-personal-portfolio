@@ -2,7 +2,6 @@ body{
     margin: 0;
     background-color: #E8f9fc;
 }
-/* header section */
 header{
     height: 60px;
 }
@@ -11,6 +10,7 @@ nav{
 }
 ul{
     list-style-type: none;
+    padding: 0;
 }
 nav ul li{
     float: left;
@@ -22,7 +22,6 @@ li a{
     color: #3C3C3C;
     font-weight: bold;
 }
-/* intro section */
 section{
     padding:6%;
     height: 570px;
@@ -95,6 +94,27 @@ h2{
     font-weight: normal;
     margin: 0;
 }
+.skills-section{
+    height: 315px;
+    padding:6% 20%;
+}
+.skills-section li{
+    background-color: salmon;
+    border-radius: 10px;
+}
+li.html{
+    width: 50%;
+}
+li.css{
+    width: 40%;
+}
+li.javascript{
+    width: 20%;
+}
+.skills-section h3{
+    line-height: 30px;
+    padding: 5px 0 0 20px;
+}
 .work-inquiry-section{
     height: 220px;
     background-image: url(shapes/Group_33094_1.png);
@@ -104,7 +124,6 @@ h2{
 }
 .inquiry-section{
     padding: 25px 23%;
-    
 }
 .inquiry-section h2{
     color: white;
@@ -114,7 +133,6 @@ h2{
 .inquiry-section a{
     float:right;
     margin: 59px 0;
-
 }
 .contact-form{
     padding: 6% 20%;
@@ -135,7 +153,6 @@ h2{
     padding: 2%;
     border: none;
     margin-bottom: 15px;
-    
 }
 .contact-form input.email-right{
     float: right;
@@ -148,9 +165,10 @@ h2{
 .contact-form button{
     width: 100%;
     padding: 2%;
-    border: none;}
-
-
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
 footer{
     text-align: center;
 }
