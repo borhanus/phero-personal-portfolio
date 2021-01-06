@@ -39,9 +39,7 @@ section{
     margin-right: 100px;
 }
 h1{
-    font-family: 'Bebas Neue', cursive;
     font-size: 64px;
-    color: #363958;
     line-height: 75px;
     margin: 20px 0px;
     font-weight: normal;
@@ -62,25 +60,33 @@ p{
     text-decoration: none;
     border-radius: 5px;
     color: white;
-    padding: 15px 40px;
+    padding: 15px 35px;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+.link-anchor img{
+    width: 16px;
 }
 img{
     width: 100%;
 }
 h2{
-    font-family: 'Bebas Neue', cursive;
     font-size: 48px;
-    color: #363958;
     line-height: 48px;
+    
+}
+.bebas-neue{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
     font-weight: normal;
 }
 .about-section{
     float: right;
     margin: 0;
 }
+
 .latest-section{
     background-color: #f8f9fc;
+    padding-bottom: 10%;
     
 }
 .latest-section h2{
@@ -91,20 +97,58 @@ h2{
 }
 
 .projects ul li{
-    width: 30%;
+    width: 28%;
     background-color: white;
     padding: 1%;
     border-radius: 10px;
     float: left;
-    margin-right: 1%;
+    margin-right: 3%;
 }
 .projects li p{
     font-weight: normal;
     margin: 0;
 }
+.work-inquiry-section{
+    height: 220px;
+    background-image: url(shapes/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+.inquiry-section{
+    
+    padding: 2% 23%;
+    
+}
+.inquiry-section h2{
+    color: white;
+    display: inline-block;
+    padding: 25px 0;
+}
+.inquiry-section a{
+    float:right;
+    margin: 59px 0;
 
-
-
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+}
+footer ul{
+    padding-left: 0;
+}
+footer ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+footer ul li img{
+    height: 50px;
+    width: 50px;
+}
 
 
 
