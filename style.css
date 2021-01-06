@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-color: #E8f9fc;
 }
 /* header section */
 header{
@@ -78,14 +79,13 @@ h2{
 }
 .latest-section{
     background-color: #f8f9fc;
-    padding-bottom: 10%;
 }
 .latest-section h2{
     text-align: center;
 }
 .projects ul li{
     width: 28%;
-    background-color: white;
+    background-color: #e8f9fc;
     padding: 1%;
     border-radius: 10px;
     float: left;
@@ -116,6 +116,41 @@ h2{
     margin: 59px 0;
 
 }
+.contact-form{
+    padding: 6% 20%;
+}
+.form-contents{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #3E3E3E;
+    line-height: 24px;
+    border-radius: 10px;
+    background-color: #f8f9fc;
+}
+.contact-form h2{
+    text-align: center;
+}
+.contact-form input{
+    width: 45%;
+    padding: 2%;
+    border: none;
+    margin-bottom: 15px;
+    
+}
+.contact-form input.email-right{
+    float: right;
+}
+.contact-form textarea{
+    width: 96%;
+    padding: 2%;
+    border: none;
+}
+.contact-form button{
+    width: 100%;
+    padding: 2%;
+    border: none;}
+
+
 footer{
     text-align: center;
 }
