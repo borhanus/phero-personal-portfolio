@@ -1,7 +1,6 @@
 body{
     margin: 0;
 }
-
 /* header section */
 header{
     height: 60px;
@@ -22,16 +21,10 @@ li a{
     color: #3C3C3C;
     font-weight: bold;
 }
-
 /* intro section */
 section{
-    padding:3%;
-    height: 500px;
-}
-
-.main-section{
-    
-
+    padding:6%;
+    height: 570px;
 }
 .main-half-section{
     float: left;
@@ -83,19 +76,13 @@ h2{
     float: right;
     margin: 0;
 }
-
 .latest-section{
     background-color: #f8f9fc;
     padding-bottom: 10%;
-    
 }
 .latest-section h2{
     text-align: center;
 }
-.projects{
-
-}
-
 .projects ul li{
     width: 28%;
     background-color: white;
